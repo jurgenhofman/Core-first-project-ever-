@@ -1,0 +1,49 @@
+
+*{
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+}
+
+.fotoheader{
+    padding-bottom: 250px;
+    background-image: url(Fotos/homepage%20achtergrond.jpg);
+    background-size: cover;
+    
+}
+
+
+.line{
+    border-right: 1px solid black;
+    height: 500px;
+    margin-left: 800px;
+    margin-right: 400px;
+    float: left;
+    margin-top: 50px;
+}
+
+.Titel h1{
+    float: left;
+    margin-top: -490px;
+    font-size: 2em;
+    margin-left: 20px;
+    Color: #FF0000;
+  
+}
+
+.Titel p{
+   float: left;
+   margin-top: -400px;
+   margin-left: 20px;
+   padding-right: 600px;
+    
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.back a:hover{
+    color: #FF0000;
+}

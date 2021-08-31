@@ -1,0 +1,869 @@
+/*Home pagina*/
+
+*{
+    font-size: 18px;
+    font-family: Microsoft Yahei;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom:20px;
+    right: 5px;
+    background-color: #FF0000;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+
+.btt a{
+    text-decoration: none;
+}
+
+.btt a:hover{
+    color: white;
+}
+
+.open{
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 210px;
+    background-image: url(Fotos/26-095737-how_fitness_pros_stay_lean_all_year.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Welcome gedeelte*/
+.welcome p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #FF0000;
+    font-weight: 200;
+    font-size: 1.5em;
+    padding: 0 40px 0 40px;
+}
+
+.welcome b{
+    font-size: 1em;
+}
+.foto{
+    background-image: url(Fotos/26-095737-how_fitness_pros_stay_lean_all_year.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+
+/*Container*/
+
+.gi h1{
+    text-align: center;
+    color: #FF0000;
+    padding-top: 10px;
+}
+
+/*rij 4 artikelen*/
+#art1-4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+}
+
+#art1-4 h1{
+    background-image: url(Fotos/medrano.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-4 h2{
+    text-align: center;
+}
+
+#art1-4 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-4 a:hover{
+    color: black;
+}
+
+#art1-4 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-4{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 5px;
+}
+
+#art2-4 h1{
+    background-image: url(Fotos/tyson.jpg);
+    padding-bottom: 180px;
+    background-size: cover;  
+}
+
+#art2-4 h2{
+    text-align: center;
+}
+
+#art2-4 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-4 a:hover{
+    color: black;
+}
+
+#art2-4 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-4{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom: 15px;
+}
+
+#art3-4 h1{
+    background-image: url(Fotos/obstacle.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-4 h2{
+    text-align: center;
+}
+
+#art3-4 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-4 a:hover{
+    color: black;
+}
+
+#art3-4 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*rij 8 artikelen*/
+#art1-8{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 35px;
+}
+
+#art1-8 h1{
+    background-image: url(Fotos/mattfraser.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+#art1-8 h2{
+    text-align: center;
+}
+
+#art1-8 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-8 a:hover{
+    color: black;
+}
+
+#art1-8 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-8{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 35px;
+}
+
+#art2-8 h1{
+    background-image: url(Fotos/supremeakeem.jpg);
+    padding-bottom: 180px;
+    background-size: cover;  
+}
+
+#art2-8 h2{
+    text-align: center;
+}
+
+#art2-8 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-8 a:hover{
+    color: black;
+}
+
+#art2-8 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-8{
+    margin-left: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom: 11px;
+    margin-top: 20px;
+}
+
+#art3-8 h1{
+    background-image: url(Fotos/strengthspeed.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+#art3-8 h2{
+    text-align: center;
+}
+
+#art3-8 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-8 a:hover{
+    color: black;
+}
+
+#art3-8 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*rij 6 artikelen*/
+#art1-6{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 40px;
+}
+
+#art1-6 h1{
+    background-image: url(Fotos/SEAL.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-6 h2{
+    text-align: center;
+}
+
+#art1-6 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-6 a:hover{
+    color: black;
+}
+
+#art1-6 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-6{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 35px;
+}
+
+#art2-6 h1{
+    background-image: url(Fotos/supremeakeem.jpg);
+    padding-bottom: 180px;
+    background-size: cover;  
+}
+
+#art2-6 h2{
+    text-align: center;
+}
+
+#art2-6 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-6 a:hover{
+    color: black;
+}
+
+#art2-6 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-6{
+    margin-left: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom: 11px;
+    margin-top: 20px;
+}
+
+#art3-6 h1{
+    background-image: url(Fotos/strengthspeed.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+#art3-6 h2{
+    text-align: center;
+}
+
+#art3-6 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-6 a:hover{
+    color: black;
+}
+
+#art3-6 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*rij 7 artikelen*/
+#art1-7{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 35%;
+    background-color: #F7F7F7;
+    padding-bottom: 4px;
+}
+
+#art1-7 h1{
+    background-image: url(Fotos/hit.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-7 h2{
+    text-align: center;
+}
+
+#art1-7 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-7 a:hover{
+    color: black;
+}
+
+#art1-7 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-7{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 27%;
+    background-color: #F7F7F7;
+    padding-bottom: 35px;
+}
+
+#art2-7 h1{
+    background-image: url(Fotos/bolt.jpg);
+    padding-bottom: 180px;
+    background-size: cover;  
+}
+
+#art2-7 h2{
+    text-align: center;
+}
+
+#art2-7 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-7 a:hover{
+    color: black;
+}
+
+#art2-7 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-7{
+    margin-left: 20px;
+    width: 26%;
+    background-color: #F7F7F7;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#art3-7 h1{
+    background-image: url(Fotos/shaolin.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+#art3-7 h2{
+    text-align: center;
+}
+
+#art3-7 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-7 a:hover{
+    color: black;
+}
+
+#art3-7 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+/*rij 3 artikelen*/
+#art1-3{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 37%;
+    background-color: #F7F7F7;
+}
+
+#art1-3 h1{
+    background-image: url(Fotos/Wahlberg.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-3 h2{
+    text-align: center;
+}
+
+#art1-3 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-3 a:hover{
+    color: black;
+}
+
+#art1-3 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-3{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 23%;
+    background-color: #F7F7F7;
+    padding-bottom: 16px;
+}
+
+#art2-3 h1{
+    background-image: url(Fotos/Rockquote.jpg);
+    padding-bottom: 278px;
+    background-size: cover;  
+}
+
+
+#art3-3{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom:
+}
+
+#art3-3 h1{
+    background-image: url(Fotos/michaeljaiwhite.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-3 h2{
+    text-align: center;
+}
+
+#art3-3 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-3 a:hover{
+    color: black;
+}
+
+#art3-3 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*Rij 1 artikelen*/
+
+#art1-1{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #F7F7F7;
+}
+
+#art1-1 h1{
+    background-image: url(Fotos/Karate.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-1 h2{
+    text-align: center;
+}
+
+#art1-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-1 a:hover{
+    color: black;
+}
+
+#art1-1 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 35%;
+    background-color: #F7F7F7;
+    padding-bottom: 14px;
+}
+
+#art2-1 h1{
+    background-image: url(Fotos/TM.jpg);
+    padding-bottom: 150px;
+    background-size: cover;  
+}
+
+#art2-1 h2{
+    text-align: center;
+}
+
+#art2-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-1 a:hover{
+    color: black;
+}
+
+#art2-1 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom:
+}
+
+#art3-1 h1{
+    background-image: url(Fotos/HC.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-1 h2{
+    text-align: center;
+}
+
+#art3-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-1 a:hover{
+    color: black;
+}
+
+#art3-1 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*Rij2 artikelen*/
+
+/*Artikel 1*/
+#art1-2{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+}
+
+#art1-2 h1{
+    background-image: url(Fotos/DM.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-2 h2{
+    text-align: center;
+}
+
+#art1-2 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-2 a:hover{
+    color: black;
+}
+
+#art1-2 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*artikel 2*/
+#art2-2{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 35px;
+}
+
+#art2-2 h1{
+    background-image: url(Fotos/LBJ27000.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art2-2 h2{
+    text-align: center;
+}
+
+#art2-2 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-2 a:hover{
+    color: black;
+}
+
+#art2-2 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+#art3-2{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom: 25px;
+}
+
+#art3-2 h1{
+    background-image: url(Fotos/nzl.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-2 h2{
+    text-align: center;
+}
+
+#art3-2 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-2 a:hover{
+    color: black;
+}
+
+#art3-2 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+/*rij 5 artikelen*/
+#art1-5{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 23%;
+    background-color: #F7F7F7;
+    padding-bottom: 25px;
+}
+
+#art1-5 h1{
+    background-image: url(Fotos/brucelee.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-5 h2{
+    text-align: center;
+}
+
+#art1-5 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-5 a:hover{
+    color: black;
+}
+
+#art1-5 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art2-5{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+    padding-bottom: 25px;
+}
+
+#art2-5 h1{
+    background-image: url(Fotos/tavi.jpg);
+    padding-bottom: 150px;
+    background-size: cover;  
+}
+
+#art2-5 h2{
+    text-align: center;
+}
+
+#art2-5 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-5 a:hover{
+    color: black;
+}
+
+#art2-5 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}
+
+
+#art3-5{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 35%;
+    background-color: #F7F7F7;
+    padding-bottom: 25px;
+}
+
+#art3-5 h1{
+    background-image: url(Fotos/juice.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-5 h2{
+    text-align: center;
+}
+
+#art3-5 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-5 a:hover{
+    color: black;
+}
+
+#art3-5 p{
+    text-align: center;
+    font-family: Microsoft Yahei Light;
+}

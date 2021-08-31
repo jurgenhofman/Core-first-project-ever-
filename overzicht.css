@@ -1,0 +1,164 @@
+*{
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+}
+
+.nav{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FF0000;
+}
+
+.nav a{
+    display: none;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FF0000;
+    float: right;
+    margin-right: 30px;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.nav img{
+    margin-left: 20px;
+}
+
+/*Rij 1 artikelen*/
+
+#art1-1{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #F7F7F7;
+}
+
+#art1-1 h1{
+    background-image: url(Fotos/Karate.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-1 h2{
+    text-align: center;
+}
+
+#art1-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-1 a:hover{
+    color: black;
+}
+
+#art1-1 p{
+    text-align: center;
+}
+
+
+#art2-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 35%;
+    background-color: #F7F7F7;
+    padding-bottom: 14px;
+}
+
+#art2-1 h1{
+    background-image: url(Fotos/TM.jpg);
+    padding-bottom: 150px;
+    background-size: cover;  
+}
+
+#art2-1 h2{
+    text-align: center;
+}
+
+#art2-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art2-1 a:hover{
+    color: black;
+}
+
+#art2-1 p{
+    text-align: center;
+}
+
+#art3-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 28%;
+    background-color: #F7F7F7;
+    padding-bottom:
+}
+
+#art3-1 h1{
+    background-image: url(Fotos/HC.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art3-1 h2{
+    text-align: center;
+}
+
+#art3-1 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art3-1 a:hover{
+    color: black;
+}
+
+#art3-1 p{
+    text-align: center;
+}
+
+/*Rij2 artikelen*/
+#art1-2{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #F7F7F7;
+}
+
+#art1-2 h1{
+    background-image: url(Fotos/DM.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#art1-2 h2{
+    text-align: center;
+}
+
+#art1-2 a{
+    font-size: 1.1em;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#art1-2 a:hover{
+    color: black;
+}
+
+#art1-2 p{
+    text-align: center;
+}
+
+
+
+
+
+
